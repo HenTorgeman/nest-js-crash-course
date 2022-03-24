@@ -1,0 +1,21 @@
+
+
+
+
+#Create new Moulde
+nest generate module users
+
+#Create new Controller
+nest g controller users
+
+#Create new Service
+nest g service users
+
+#Swagger
+npm i--save @nestjs/swagger swagger-ui-express
+
+#Pipes 
+npm i class-validator class-transformer
+
+#Generate module CRUD
+nest g resource users
